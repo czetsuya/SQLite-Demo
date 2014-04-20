@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7A8EF391903634000511B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF381903634000511B32 /* Foundation.framework */; };
+		B7A8EF3B1903634000511B32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF3A1903634000511B32 /* CoreGraphics.framework */; };
+		B7A8EF3D1903634000511B32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF3C1903634000511B32 /* UIKit.framework */; };
+		B7A8EF3F1903634000511B32 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF3E1903634000511B32 /* CoreData.framework */; };
+		B7A8EF451903634000511B32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7A8EF431903634000511B32 /* InfoPlist.strings */; };
+		B7A8EF471903634000511B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF461903634000511B32 /* main.m */; };
+		B7A8EF4B1903634000511B32 /* KBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF4A1903634000511B32 /* KBSAppDelegate.m */; };
+		B7A8EF4E1903634000511B32 /* SqliteAnimeDb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF4C1903634000511B32 /* SqliteAnimeDb.xcdatamodeld */; };
+		B7A8EF501903634000511B32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A8EF4F1903634000511B32 /* Images.xcassets */; };
+		B7A8EF571903634000511B32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF561903634000511B32 /* XCTest.framework */; };
+		B7A8EF581903634000511B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF381903634000511B32 /* Foundation.framework */; };
+		B7A8EF591903634000511B32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF3C1903634000511B32 /* UIKit.framework */; };
+		B7A8EF5A1903634000511B32 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF3E1903634000511B32 /* CoreData.framework */; };
+		B7A8EF621903634000511B32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7A8EF601903634000511B32 /* InfoPlist.strings */; };
+		B7A8EF641903634000511B32 /* SqliteAnimeDbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF631903634000511B32 /* SqliteAnimeDbTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7A8EF5B1903634000511B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A8EF2D1903634000511B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A8EF341903634000511B32;
+			remoteInfo = SqliteAnimeDb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7A8EF351903634000511B32 /* SqliteAnimeDb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteAnimeDb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A8EF381903634000511B32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7A8EF3A1903634000511B32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7A8EF3C1903634000511B32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7A8EF3E1903634000511B32 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B7A8EF421903634000511B32 /* SqliteAnimeDb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SqliteAnimeDb-Info.plist"; sourceTree = "<group>"; };
+		B7A8EF441903634000511B32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7A8EF461903634000511B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7A8EF481903634000511B32 /* SqliteAnimeDb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SqliteAnimeDb-Prefix.pch"; sourceTree = "<group>"; };
+		B7A8EF491903634000511B32 /* KBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBSAppDelegate.h; sourceTree = "<group>"; };
+		B7A8EF4A1903634000511B32 /* KBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSAppDelegate.m; sourceTree = "<group>"; };
+		B7A8EF4D1903634000511B32 /* SqliteAnimeDb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SqliteAnimeDb.xcdatamodel; sourceTree = "<group>"; };
+		B7A8EF4F1903634000511B32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7A8EF551903634000511B32 /* SqliteAnimeDbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteAnimeDbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A8EF561903634000511B32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B7A8EF5F1903634000511B32 /* SqliteAnimeDbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SqliteAnimeDbTests-Info.plist"; sourceTree = "<group>"; };
+		B7A8EF611903634000511B32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7A8EF631903634000511B32 /* SqliteAnimeDbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteAnimeDbTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7A8EF321903634000511B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A8EF3B1903634000511B32 /* CoreGraphics.framework in Frameworks */,
+				B7A8EF3F1903634000511B32 /* CoreData.framework in Frameworks */,
+				B7A8EF3D1903634000511B32 /* UIKit.framework in Frameworks */,
+				B7A8EF391903634000511B32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A8EF521903634000511B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A8EF571903634000511B32 /* XCTest.framework in Frameworks */,
+				B7A8EF5A1903634000511B32 /* CoreData.framework in Frameworks */,
+				B7A8EF591903634000511B32 /* UIKit.framework in Frameworks */,
+				B7A8EF581903634000511B32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7A8EF2C1903634000511B32 = {
+			isa = PBXGroup;
+			children = (
+				B7A8EF401903634000511B32 /* SqliteAnimeDb */,
+				B7A8EF5D1903634000511B32 /* SqliteAnimeDbTests */,
+				B7A8EF371903634000511B32 /* Frameworks */,
+				B7A8EF361903634000511B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7A8EF361903634000511B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8EF351903634000511B32 /* SqliteAnimeDb.app */,
+				B7A8EF551903634000511B32 /* SqliteAnimeDbTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A8EF371903634000511B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8EF381903634000511B32 /* Foundation.framework */,
+				B7A8EF3A1903634000511B32 /* CoreGraphics.framework */,
+				B7A8EF3C1903634000511B32 /* UIKit.framework */,
+				B7A8EF3E1903634000511B32 /* CoreData.framework */,
+				B7A8EF561903634000511B32 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7A8EF401903634000511B32 /* SqliteAnimeDb */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8EF491903634000511B32 /* KBSAppDelegate.h */,
+				B7A8EF4A1903634000511B32 /* KBSAppDelegate.m */,
+				B7A8EF4F1903634000511B32 /* Images.xcassets */,
+				B7A8EF4C1903634000511B32 /* SqliteAnimeDb.xcdatamodeld */,
+				B7A8EF411903634000511B32 /* Supporting Files */,
+			);
+			path = SqliteAnimeDb;
+			sourceTree = "<group>";
+		};
+		B7A8EF411903634000511B32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8EF421903634000511B32 /* SqliteAnimeDb-Info.plist */,
+				B7A8EF431903634000511B32 /* InfoPlist.strings */,
+				B7A8EF461903634000511B32 /* main.m */,
+				B7A8EF481903634000511B32 /* SqliteAnimeDb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7A8EF5D1903634000511B32 /* SqliteAnimeDbTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8EF631903634000511B32 /* SqliteAnimeDbTests.m */,
+				B7A8EF5E1903634000511B32 /* Supporting Files */,
+			);
+			path = SqliteAnimeDbTests;
+			sourceTree = "<group>";
+		};
+		B7A8EF5E1903634000511B32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8EF5F1903634000511B32 /* SqliteAnimeDbTests-Info.plist */,
+				B7A8EF601903634000511B32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7A8EF341903634000511B32 /* SqliteAnimeDb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A8EF671903634000511B32 /* Build configuration list for PBXNativeTarget "SqliteAnimeDb" */;
+			buildPhases = (
+				B7A8EF311903634000511B32 /* Sources */,
+				B7A8EF321903634000511B32 /* Frameworks */,
+				B7A8EF331903634000511B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SqliteAnimeDb;
+			productName = SqliteAnimeDb;
+			productReference = B7A8EF351903634000511B32 /* SqliteAnimeDb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7A8EF541903634000511B32 /* SqliteAnimeDbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A8EF6A1903634000511B32 /* Build configuration list for PBXNativeTarget "SqliteAnimeDbTests" */;
+			buildPhases = (
+				B7A8EF511903634000511B32 /* Sources */,
+				B7A8EF521903634000511B32 /* Frameworks */,
+				B7A8EF531903634000511B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A8EF5C1903634000511B32 /* PBXTargetDependency */,
+			);
+			name = SqliteAnimeDbTests;
+			productName = SqliteAnimeDbTests;
+			productReference = B7A8EF551903634000511B32 /* SqliteAnimeDbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7A8EF2D1903634000511B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KBS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kalidad Business Solutions";
+				TargetAttributes = {
+					B7A8EF541903634000511B32 = {
+						TestTargetID = B7A8EF341903634000511B32;
+					};
+				};
+			};
+			buildConfigurationList = B7A8EF301903634000511B32 /* Build configuration list for PBXProject "SqliteAnimeDb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7A8EF2C1903634000511B32;
+			productRefGroup = B7A8EF361903634000511B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7A8EF341903634000511B32 /* SqliteAnimeDb */,
+				B7A8EF541903634000511B32 /* SqliteAnimeDbTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7A8EF331903634000511B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A8EF451903634000511B32 /* InfoPlist.strings in Resources */,
+				B7A8EF501903634000511B32 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A8EF531903634000511B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A8EF621903634000511B32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7A8EF311903634000511B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A8EF4E1903634000511B32 /* SqliteAnimeDb.xcdatamodeld in Sources */,
+				B7A8EF471903634000511B32 /* main.m in Sources */,
+				B7A8EF4B1903634000511B32 /* KBSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A8EF511903634000511B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A8EF641903634000511B32 /* SqliteAnimeDbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7A8EF5C1903634000511B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A8EF341903634000511B32 /* SqliteAnimeDb */;
+			targetProxy = B7A8EF5B1903634000511B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7A8EF431903634000511B32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A8EF441903634000511B32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7A8EF601903634000511B32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A8EF611903634000511B32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7A8EF651903634000511B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7A8EF661903634000511B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7A8EF681903634000511B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SqliteAnimeDb/SqliteAnimeDb-Prefix.pch";
+				INFOPLIST_FILE = "SqliteAnimeDb/SqliteAnimeDb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7A8EF691903634000511B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SqliteAnimeDb/SqliteAnimeDb-Prefix.pch";
+				INFOPLIST_FILE = "SqliteAnimeDb/SqliteAnimeDb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7A8EF6B1903634000511B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SqliteAnimeDb.app/SqliteAnimeDb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SqliteAnimeDb/SqliteAnimeDb-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SqliteAnimeDbTests/SqliteAnimeDbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B7A8EF6C1903634000511B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SqliteAnimeDb.app/SqliteAnimeDb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SqliteAnimeDb/SqliteAnimeDb-Prefix.pch";
+				INFOPLIST_FILE = "SqliteAnimeDbTests/SqliteAnimeDbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7A8EF301903634000511B32 /* Build configuration list for PBXProject "SqliteAnimeDb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A8EF651903634000511B32 /* Debug */,
+				B7A8EF661903634000511B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A8EF671903634000511B32 /* Build configuration list for PBXNativeTarget "SqliteAnimeDb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A8EF681903634000511B32 /* Debug */,
+				B7A8EF691903634000511B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7A8EF6A1903634000511B32 /* Build configuration list for PBXNativeTarget "SqliteAnimeDbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A8EF6B1903634000511B32 /* Debug */,
+				B7A8EF6C1903634000511B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7A8EF4C1903634000511B32 /* SqliteAnimeDb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7A8EF4D1903634000511B32 /* SqliteAnimeDb.xcdatamodel */,
+			);
+			currentVersion = B7A8EF4D1903634000511B32 /* SqliteAnimeDb.xcdatamodel */;
+			path = SqliteAnimeDb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7A8EF2D1903634000511B32 /* Project object */;
+}

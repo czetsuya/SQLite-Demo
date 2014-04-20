@@ -22,6 +22,13 @@
 		B7A8EF5A1903634000511B32 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF3E1903634000511B32 /* CoreData.framework */; };
 		B7A8EF621903634000511B32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7A8EF601903634000511B32 /* InfoPlist.strings */; };
 		B7A8EF641903634000511B32 /* SqliteAnimeDbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF631903634000511B32 /* SqliteAnimeDbTests.m */; };
+		B7A8EF6E1903671C00511B32 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A8EF6D1903671C00511B32 /* libsqlite3.0.dylib */; };
+		B7A8EF701903677C00511B32 /* anime.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B7A8EF6F1903677C00511B32 /* anime.sqlite */; };
+		B7A8EF721903688C00511B32 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A8EF711903688C00511B32 /* MainStoryboard.storyboard */; };
+		B7A8EF75190369F900511B32 /* KBSAnimeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF74190369F900511B32 /* KBSAnimeListTableViewController.m */; };
+		B7A8EF7819036A1100511B32 /* KBSAnimeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF7719036A1100511B32 /* KBSAnimeDetailViewController.m */; };
+		B7A8EF7B19036A3400511B32 /* KBSAnime.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF7A19036A3400511B32 /* KBSAnime.m */; };
+		B7A8EF7E19038A2D00511B32 /* KBSSqliteConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF7D19038A2D00511B32 /* KBSSqliteConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,17 @@
 		B7A8EF5F1903634000511B32 /* SqliteAnimeDbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SqliteAnimeDbTests-Info.plist"; sourceTree = "<group>"; };
 		B7A8EF611903634000511B32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7A8EF631903634000511B32 /* SqliteAnimeDbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteAnimeDbTests.m; sourceTree = "<group>"; };
+		B7A8EF6D1903671C00511B32 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B7A8EF6F1903677C00511B32 /* anime.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = anime.sqlite; sourceTree = "<group>"; };
+		B7A8EF711903688C00511B32 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B7A8EF73190369F900511B32 /* KBSAnimeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSAnimeListTableViewController.h; sourceTree = "<group>"; };
+		B7A8EF74190369F900511B32 /* KBSAnimeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSAnimeListTableViewController.m; sourceTree = "<group>"; };
+		B7A8EF7619036A1100511B32 /* KBSAnimeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSAnimeDetailViewController.h; sourceTree = "<group>"; };
+		B7A8EF7719036A1100511B32 /* KBSAnimeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSAnimeDetailViewController.m; sourceTree = "<group>"; };
+		B7A8EF7919036A3400511B32 /* KBSAnime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSAnime.h; sourceTree = "<group>"; };
+		B7A8EF7A19036A3400511B32 /* KBSAnime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSAnime.m; sourceTree = "<group>"; };
+		B7A8EF7C19038A2D00511B32 /* KBSSqliteConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSSqliteConnection.h; sourceTree = "<group>"; };
+		B7A8EF7D19038A2D00511B32 /* KBSSqliteConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSSqliteConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A8EF6E1903671C00511B32 /* libsqlite3.0.dylib in Frameworks */,
 				B7A8EF3B1903634000511B32 /* CoreGraphics.framework in Frameworks */,
 				B7A8EF3F1903634000511B32 /* CoreData.framework in Frameworks */,
 				B7A8EF3D1903634000511B32 /* UIKit.framework in Frameworks */,
@@ -103,6 +122,7 @@
 		B7A8EF371903634000511B32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B7A8EF6D1903671C00511B32 /* libsqlite3.0.dylib */,
 				B7A8EF381903634000511B32 /* Foundation.framework */,
 				B7A8EF3A1903634000511B32 /* CoreGraphics.framework */,
 				B7A8EF3C1903634000511B32 /* UIKit.framework */,
@@ -115,11 +135,21 @@
 		B7A8EF401903634000511B32 /* SqliteAnimeDb */ = {
 			isa = PBXGroup;
 			children = (
+				B7A8EF6F1903677C00511B32 /* anime.sqlite */,
 				B7A8EF491903634000511B32 /* KBSAppDelegate.h */,
 				B7A8EF4A1903634000511B32 /* KBSAppDelegate.m */,
 				B7A8EF4F1903634000511B32 /* Images.xcassets */,
 				B7A8EF4C1903634000511B32 /* SqliteAnimeDb.xcdatamodeld */,
 				B7A8EF411903634000511B32 /* Supporting Files */,
+				B7A8EF711903688C00511B32 /* MainStoryboard.storyboard */,
+				B7A8EF73190369F900511B32 /* KBSAnimeListTableViewController.h */,
+				B7A8EF74190369F900511B32 /* KBSAnimeListTableViewController.m */,
+				B7A8EF7619036A1100511B32 /* KBSAnimeDetailViewController.h */,
+				B7A8EF7719036A1100511B32 /* KBSAnimeDetailViewController.m */,
+				B7A8EF7919036A3400511B32 /* KBSAnime.h */,
+				B7A8EF7A19036A3400511B32 /* KBSAnime.m */,
+				B7A8EF7C19038A2D00511B32 /* KBSSqliteConnection.h */,
+				B7A8EF7D19038A2D00511B32 /* KBSSqliteConnection.m */,
 			);
 			path = SqliteAnimeDb;
 			sourceTree = "<group>";
@@ -230,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A8EF451903634000511B32 /* InfoPlist.strings in Resources */,
+				B7A8EF701903677C00511B32 /* anime.sqlite in Resources */,
+				B7A8EF721903688C00511B32 /* MainStoryboard.storyboard in Resources */,
 				B7A8EF501903634000511B32 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A8EF7819036A1100511B32 /* KBSAnimeDetailViewController.m in Sources */,
+				B7A8EF7B19036A3400511B32 /* KBSAnime.m in Sources */,
 				B7A8EF4E1903634000511B32 /* SqliteAnimeDb.xcdatamodeld in Sources */,
+				B7A8EF7E19038A2D00511B32 /* KBSSqliteConnection.m in Sources */,
 				B7A8EF471903634000511B32 /* main.m in Sources */,
 				B7A8EF4B1903634000511B32 /* KBSAppDelegate.m in Sources */,
+				B7A8EF75190369F900511B32 /* KBSAnimeListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +484,7 @@
 				B7A8EF691903634000511B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7A8EF6A1903634000511B32 /* Build configuration list for PBXNativeTarget "SqliteAnimeDbTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +493,7 @@
 				B7A8EF6C1903634000511B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

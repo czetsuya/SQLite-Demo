@@ -29,6 +29,7 @@
 		B7A8EF7819036A1100511B32 /* KBSAnimeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF7719036A1100511B32 /* KBSAnimeDetailViewController.m */; };
 		B7A8EF7B19036A3400511B32 /* KBSAnime.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF7A19036A3400511B32 /* KBSAnime.m */; };
 		B7A8EF7E19038A2D00511B32 /* KBSSqliteConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A8EF7D19038A2D00511B32 /* KBSSqliteConnection.m */; };
+		B7C3D4D91903B98D00CED1AC /* README in Resources */ = {isa = PBXBuildFile; fileRef = B7C3D4D81903B98D00CED1AC /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		B7A8EF7A19036A3400511B32 /* KBSAnime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSAnime.m; sourceTree = "<group>"; };
 		B7A8EF7C19038A2D00511B32 /* KBSSqliteConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSSqliteConnection.h; sourceTree = "<group>"; };
 		B7A8EF7D19038A2D00511B32 /* KBSSqliteConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSSqliteConnection.m; sourceTree = "<group>"; };
+		B7C3D4D81903B98D00CED1AC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		B7A8EF2C1903634000511B32 = {
 			isa = PBXGroup;
 			children = (
+				B7C3D4D81903B98D00CED1AC /* README */,
 				B7A8EF401903634000511B32 /* SqliteAnimeDb */,
 				B7A8EF5D1903634000511B32 /* SqliteAnimeDbTests */,
 				B7A8EF371903634000511B32 /* Frameworks */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C3D4D91903B98D00CED1AC /* README in Resources */,
 				B7A8EF451903634000511B32 /* InfoPlist.strings in Resources */,
 				B7A8EF701903677C00511B32 /* anime.sqlite in Resources */,
 				B7A8EF721903688C00511B32 /* MainStoryboard.storyboard in Resources */,
